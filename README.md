@@ -31,7 +31,7 @@ A raiz deste repositório é um workspace do projeto em laravel 5.6. Para rodar 
 - php artisan tinker
 
 ### criando projeto
-criando projecto: composer create-project laravel/laravel “nome” “versao” --prefer-dist
+- criando projecto: composer create-project laravel/laravel “nome” “versao” --prefer-dist
 
 ### atualizando database com migration
 - php artisan migrate:install
@@ -47,8 +47,8 @@ criando projecto: composer create-project laravel/laravel “nome” “versao�
 - php artisan db:seed --class=”nome” se omitido class popula todos
 
 ### atualizando projeto / baixando dependencias
-composer update --no-scripts
-composer dump-autoload
+- composer update --no-scripts
+- composer dump-autoload
 
 ### localização dos objetos
 - models: 			app/
