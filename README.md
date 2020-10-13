@@ -1,4 +1,4 @@
-# Estudos em J2EE para Concurso Público 013/2019 (UNICAMP)
+# Estudos em Laravel para Concurso Público 013/2019 (UNICAMP)
 Este projeto destina-se para estudos tecnico cientificos com finalidade de aprovacao em concurso publico em universidade publica no interior do estado de sao paulo.
 
 ## Objetivo
