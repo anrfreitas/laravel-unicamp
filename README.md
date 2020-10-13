@@ -30,8 +30,8 @@ A raiz deste repositório é um workspace do projeto em laravel 5.6. Para rodar 
 - php artisan make:seeder “seeder”
 - php artisan tinker
 
-### criando projeto
-- criando projecto: composer create-project laravel/laravel “nome” “versao” --prefer-dist
+### comando para criar projeto
+- composer create-project laravel/laravel “nome” “versao” --prefer-dist
 
 ### atualizando database com migration
 - php artisan migrate:install
