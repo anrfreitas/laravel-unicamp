@@ -40,7 +40,7 @@ A raiz deste repositório é um workspace do projeto em laravel 5.6. Para rodar 
 - php artisan cache:clear
 
 ### comandos de migration
-- commit: php artisan migrate –seed
+- commit: php artisan migrate --seed
 - rollback: php artisan migrate:rollback
 
 ### comando para popular seeds
