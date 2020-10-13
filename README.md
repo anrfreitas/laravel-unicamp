@@ -20,3 +20,45 @@ A raiz deste repositório é um workspace do projeto em laravel 5.6. Para rodar 
 - PHP 7.4 - xml
 - Apache2 Server
 - mySQL Server
+
+## Comandos e localização de objetos no framework
+
+### comandos básicos
+php artisan make:model “model”
+php artisan make:controller “controller”
+php artisan make:model -m -f “model” - creates factory and migration
+php artisan make:seeder “seeder”
+php artisan tinker
+
+### atualizando database com migration
+php artisan migrate:install
+config/database.php
+root/ .env
+php artisan cache:clear
+
+### migration
+commit: php artisan migrate –seed
+rollback: php artisan migrate:rollback
+
+### populando seeds
+php artisan db:seed –class=”nome” se omitido class popula todos
+
+### criando projeto
+criando projecto: composer create-project laravel/laravel “nome” “versao” --prefer-dist
+
+### atualizando projeto / baixando dependencias
+composer update –no-scripts
+composer dump-autoload
+
+### localização dos objetos
+models: 			app/
+controllers:		app/http/controllers/
+factories:		database/factories
+seeders:			database/seeds/
+migrations:		database/migrations/
+config:			config/app.php
+database:		config/database.php e (.env)
+routes:			routes/web.php
+views:			resources/views/ (arq. .blade.php) – blade layouts
+storage:			storage/app/public/
+libs:			vendor/
