@@ -20,6 +20,7 @@ A raiz deste repositório é um workspace do projeto em laravel 5.6. Para rodar 
 - PHP 7.4 - xml
 - Apache2 Server
 - mySQL Server
+- Composer
 
 ## Comandos e localização de objetos no framework
 
