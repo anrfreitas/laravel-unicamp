@@ -1,0 +1,29 @@
+Hello, we are going to create a project called LaraProject
+
+The proccess of creating the project may take a couple minutes, be calm...
+
+This .env file is responsible for the project connection to the database. 
+
+There are two files reponsible for that connection:
+- config/database.php
+- root project .env file
+
+Once we configure the connection, we must run migrate install to install migration to the database.
+$ php artisan migrate:install
+
+To clean the cache that might get you bored, you should cache clear
+$ php artisan cache:clear
+
+Alright, lets gets our hands on!
+
+That error occurs because storage doesnt have enough permission. That happened because we've created the project. Do so
+to fix this error. It works!!
+
+We've built our model and our migration. Now we've to configure the database to receive these data.
+
+Everything worked fine! Our tables were created, the migration has been made successfully!!!
+
+When we ran the command php artisan db:seed we've just ran the code to create fake data. The fake data
+defined previously!
+
+Thats all, thank you!!
